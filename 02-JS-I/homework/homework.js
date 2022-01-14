@@ -122,7 +122,10 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (nom = esPar){
+    return true;
+  }else{
+  return false;
 
   
 }
