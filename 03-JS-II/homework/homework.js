@@ -5,12 +5,26 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if (x<y){
+    return y
+  }else{
+    return x
+  }
+
+  
+  
+  
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  if (edad >= 18){
+    return "Allowed";
+  } else {
+    return "Not allowed";
+  }
 }
   
 function conection(status) {
@@ -19,6 +33,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  if (status === 1){
+    return "Online"
+  }if (status === 2){
+    return "Away"
+  }else{
+    return "Offline"
+  }
 }
 
 function saludo(idioma) {
@@ -28,6 +49,15 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  if (idioma === "aleman"){
+    return "Guten Tag!"
+  }if (idioma === "mandarin"){
+    return "Ni Hao!"
+  }else if (idioma === "ingles"){
+    return "Hello!"
+  }else{
+    return "Hola!"
+  }
 }
 
 function colors(color) {
@@ -44,6 +74,11 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (numero === 10 || 5){
+    return true
+  }else if (numero !== 10 || 5){
+    return false
+  }
 }
 
 function estaEnRango(numero) {
