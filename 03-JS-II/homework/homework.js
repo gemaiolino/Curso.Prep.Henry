@@ -205,11 +205,14 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+<<<<<<< HEAD
   if (numero > 99 && numero < 1000){
     return true
   }  else {
     return false
   }
+=======
+>>>>>>> 289b4a80e143d2aa2efea87174af27dd1ee65d4a
 
   
 }
